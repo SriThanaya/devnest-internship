@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevNest Task 2 - Interactive Site</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1>DevNest Task 2</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Counter Section -->
+  <section class="container">
+    <h2>Counter</h2>
+    <p id="counter">0</p>
+    <button id="increaseBtn">Increase</button>
+  </section>
+
+  <!-- Dark Mode Section -->
+  <section class="container">
+    <h2>Dark Mode Feature</h2>
+    <button id="toggleDarkBtn">Toggle Dark Mode</button>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- JS (loaded at end so DOM is ready) -->
+  <script src="Assets/js/script.js"></script>
+</body>
+</html>
+
+
+
